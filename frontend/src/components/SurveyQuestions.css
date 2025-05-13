@@ -1,0 +1,75 @@
+/* SurveyQuestions.css */
+
+.survey-inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 2vw;
+    max-width: 100%;
+    /* 추가 */
+    box-sizing: border-box;
+    /* 패딩 포함 */
+    width: 100%;
+    /* 추가 */
+}
+
+.question-block {
+    background-color: #f1f8ff;
+    padding: 0vw 3vw 1.5vw 3vw;
+    border-radius: 1rem;
+    transition: background-color 0.3s;
+    width: 55vw;
+    /* 모든 박스의 가로 길이를 동일하게 설정 */
+    box-sizing: border-box;
+}
+
+
+.question-block:hover {
+    background-color: #e3f2fd;
+}
+
+.question-title {
+    font-family: "Nanum Pen Script";
+    font-style: normal;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0d47a1;
+    line-height: 1.5;
+}
+
+.option-label {
+    font-family: "Nanum Pen Script";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 1.2vh;
+    color: #333;
+    cursor: pointer;
+    flex-wrap: wrap;
+    word-break: keep-all;
+}
+
+.option-input {
+    margin-top: 0.3vh;
+    width: 1.2rem;
+    height: 1.2rem;
+    accent-color: #1565c0;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .question-title {
+        font-size: 1.05rem;
+    }
+
+    .option-label {
+        font-size: 0.95rem;
+    }
+
+    .question-block {
+        padding: 5vw;
+    }
+}

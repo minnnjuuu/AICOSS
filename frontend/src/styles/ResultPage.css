@@ -1,0 +1,71 @@
+/* src/pages/ResultPage.css */
+
+.result-page {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 2vw;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.result-block {
+    background-color: #f1f8ff;
+    padding: 3vw;
+    border-radius: 1rem;
+    transition: background-color 0.3s;
+}
+
+.result-block:hover {
+    background-color: #e3f2fd;
+}
+
+.result-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0d47a1;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.result-subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1565c0;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.result-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.no-result {
+    font-size: 1rem;
+    color: #999;
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .result-title {
+        font-size: 1.4rem;
+    }
+
+    .result-subtitle {
+        font-size: 1.05rem;
+    }
+
+    .result-text {
+        font-size: 0.95rem;
+    }
+
+    .result-block {
+        padding: 5vw;
+    }
+}

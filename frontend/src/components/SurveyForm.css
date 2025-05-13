@@ -1,0 +1,89 @@
+/* SurveyForm.css */
+
+.survey-container {
+    background: url('../assets/background.jpg') no-repeat center center;
+    width: 100%;
+    min-height: 100vh;
+    /* 전체 화면 높이 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* 여백 설정 */
+    box-sizing: border-box;
+}
+
+.survey-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1565c0;
+}
+
+.survey-form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #0d47a1;
+}
+
+.survey-form input[type="text"],
+.survey-form textarea,
+.survey-form select {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #90caf9;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background-color: #f1f8ff;
+}
+
+.survey-form input[type="checkbox"],
+.survey-form input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.survey-form .question-group {
+    margin-bottom: 2rem;
+}
+
+.submit-button {
+    color: #0d47a1;
+    width: 50vw;
+    height: 15vw;
+    font-family: "Hahmlet", serif;
+    font-size: 8vw;
+    font-weight: normal;
+    background: url("../assets/button.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+
+    /* 가운데 정렬 */
+    display: flex;
+    align-items: center;
+    /* 세로 정렬 */
+    justify-content: center;
+    /* 가로 정렬 */
+    text-align: center;
+    margin: 0 auto;
+
+    /* 애니메이션 추가 */
+    transition: transform 0.3s ease-in-out;
+    /* 확대/축소 애니메이션 */
+}
+
+.submit-button:hover {
+    transform: scale(0.8);
+}
+
+
+.error-message {
+    color: #d32f2f;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: clamp(1rem, 1.5vw, 1.3rem);
+    /* 최소 1rem ~ 최대 1.5rem */
+}

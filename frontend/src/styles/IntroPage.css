@@ -1,0 +1,185 @@
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../assets/background.jpg') no-repeat center center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0d47a1;
+    padding: 5vh 5vw;
+}
+
+
+/* 로고 */
+.intro-logo {
+    width: clamp(180px, 30vw, 400px);
+    margin-bottom: 3vh;
+}
+
+/* 제목 */
+.intro-title {
+    font-size: clamp(2.0rem, 5vw, 2.8rem);
+    font-weight: bold;
+    color: #1565c0;
+    text-align: center;
+    font-family: "Hahmlet", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+/* 설명 */
+.intro-description {
+    font-size: clamp(0.85rem, 2.5vw, 1rem);
+    text-align: center;
+    line-height: 1.6;
+    width: 90vw;
+    margin-bottom: 2rem;
+}
+
+.intro-description strong {
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
+    font-family: "Hahmlet", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+    color: #0d47a1;
+}
+
+.survey-description,
+.survey-description-2 {
+    width: 80vw;
+    /* 뷰포트 기준 동일한 가로 길이 */
+    margin: 0 auto;
+    /* 가운데 정렬 */
+    box-sizing: border-box;
+}
+
+
+/* 박스 내부 제목 */
+.survey-description-title {
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
+    color: #0d47a1;
+    text-align: center;
+    font-family: "Hahmlet", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+
+    background-image: url('../assets/skyblue3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: clamp(200px, 60vw, 480px);
+    margin: 0 auto;
+
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* 디테일 영역 */
+.survey-detail-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.detail {
+    background-color: rgba(241, 248, 255, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.detail-title {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    margin: 0 0 0.5rem 0;
+    color: #0d47a1;
+}
+
+.detail-course-type {
+    margin: 6px 0;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: clamp(0.9rem, 2.3vw, 1rem);
+}
+
+/* 강조 텍스트 */
+.survey-description-3 {
+    font-family: "Hahmlet", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 3rem;
+    padding: clamp(1rem, 4vw, 2rem);
+    text-align: center;
+    font-size: clamp(1rem, 2.8vw, 1.3rem);
+    color: #0d47a1;
+    font-weight: bold;
+    max-width: 700px;
+    width: 90%;
+}
+
+/* 버튼 */
+/* 버튼 */
+.intro-button {
+    color: #0d47a1;
+    width: 50vw;
+    height: 15vw;
+    text-align: center;
+    font-family: "Hahmlet", serif;
+    font-size: 10vw;
+    font-weight: normal;
+    background: url("../assets/button.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+
+    /* 버튼 내부 여백 */
+    display: inline-block;
+
+    /* 애니메이션 추가 */
+    transition: transform 0.3s ease-in-out;
+    /* 확대/축소 애니메이션 */
+}
+
+/* 마우스를 올렸을 때 버튼 축소 */
+.intro-button:hover {
+    transform: scale(0.8);
+    /* 0.8배 축소 */
+}
+
+
+
+
+/* 정보 문구 */
+.survey-info {
+    margin-top: 1.5rem;
+    font-size: clamp(0.8rem, 2vw, 0.95rem);
+    color: #455a64;
+    text-align: center;
+}
+
+/* 푸터 */
+.intro-footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: clamp(0.75rem, 2vw, 0.9rem);
+    color: #607d8b;
+    width: 100%;
+}
+
+.intro-footer a {
+    color: #1565c0;
+    text-decoration: none;
+}
+
+.intro-footer a:hover {
+    text-decoration: underline;
+}
