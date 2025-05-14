@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AICOSS/static/css/main.85ed8657.css",
-    "main.js": "/AICOSS/static/js/main.9d8e917f.js",
+    "main.css": "/AICOSS/static/css/main.f587dafa.css",
+    "main.js": "/AICOSS/static/js/main.417ed62a.js",
     "static/js/453.8ab44547.chunk.js": "/AICOSS/static/js/453.8ab44547.chunk.js",
     "static/media/background.jpg": "/AICOSS/static/media/background.9b2d332eaff19cbb46c8.jpg",
     "static/media/skyblue3.png": "/AICOSS/static/media/skyblue3.38ea9d3b4ed21372157c.png",
     "static/media/aicossLogo.png": "/AICOSS/static/media/aicossLogo.3df3f0022d7bbb55b6d4.png",
     "static/media/button.png": "/AICOSS/static/media/button.7a436756972661d7c97b.png",
     "index.html": "/AICOSS/index.html",
-    "main.85ed8657.css.map": "/AICOSS/static/css/main.85ed8657.css.map",
-    "main.9d8e917f.js.map": "/AICOSS/static/js/main.9d8e917f.js.map",
+    "main.f587dafa.css.map": "/AICOSS/static/css/main.f587dafa.css.map",
+    "main.417ed62a.js.map": "/AICOSS/static/js/main.417ed62a.js.map",
     "453.8ab44547.chunk.js.map": "/AICOSS/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85ed8657.css",
-    "static/js/main.9d8e917f.js"
+    "static/css/main.f587dafa.css",
+    "static/js/main.417ed62a.js"
   ]
 }
