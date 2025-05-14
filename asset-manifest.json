@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/AICOSS/static/css/main.f587dafa.css",
-    "main.js": "/AICOSS/static/js/main.408a2b3d.js",
+    "main.css": "/AICOSS/static/css/main.5896ac57.css",
+    "main.js": "/AICOSS/static/js/main.2d9bd1f0.js",
     "static/js/453.8ab44547.chunk.js": "/AICOSS/static/js/453.8ab44547.chunk.js",
     "static/media/background.jpg": "/AICOSS/static/media/background.9b2d332eaff19cbb46c8.jpg",
+    "static/media/open.png": "/AICOSS/static/media/open.86fbe601ee910ebb5b5c.png",
+    "static/media/integrated.png": "/AICOSS/static/media/integrated.b89f1e353bbc98423980.png",
+    "static/media/general.png": "/AICOSS/static/media/general.863c33f79afc99b4551e.png",
+    "static/media/advanced.png": "/AICOSS/static/media/advanced.86cb40ec8528fba409a1.png",
     "static/media/skyblue3.png": "/AICOSS/static/media/skyblue3.38ea9d3b4ed21372157c.png",
     "static/media/aicossLogo.png": "/AICOSS/static/media/aicossLogo.3df3f0022d7bbb55b6d4.png",
     "static/media/button.png": "/AICOSS/static/media/button.7a436756972661d7c97b.png",
+    "static/media/integrated2.png": "/AICOSS/static/media/integrated2.4fda0d8181f1147ca7c7.png",
+    "static/media/open2.png": "/AICOSS/static/media/open2.543ae5d88d1c9be1e957.png",
+    "static/media/advanced2.png": "/AICOSS/static/media/advanced2.3a1838f2c6e5615da73f.png",
+    "static/media/general2.png": "/AICOSS/static/media/general2.b68deb7c929e02723729.png",
     "index.html": "/AICOSS/index.html",
-    "main.f587dafa.css.map": "/AICOSS/static/css/main.f587dafa.css.map",
-    "main.408a2b3d.js.map": "/AICOSS/static/js/main.408a2b3d.js.map",
+    "main.5896ac57.css.map": "/AICOSS/static/css/main.5896ac57.css.map",
+    "main.2d9bd1f0.js.map": "/AICOSS/static/js/main.2d9bd1f0.js.map",
     "453.8ab44547.chunk.js.map": "/AICOSS/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f587dafa.css",
-    "static/js/main.408a2b3d.js"
+    "static/css/main.5896ac57.css",
+    "static/js/main.2d9bd1f0.js"
   ]
 }
