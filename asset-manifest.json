@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AICOSS/static/css/main.d210c8b2.css",
-    "main.js": "/AICOSS/static/js/main.988535ea.js",
+    "main.css": "/AICOSS/static/css/main.9fd69ed8.css",
+    "main.js": "/AICOSS/static/js/main.8925984f.js",
     "static/js/453.8ab44547.chunk.js": "/AICOSS/static/js/453.8ab44547.chunk.js",
     "static/media/background.jpg": "/AICOSS/static/media/background.9b2d332eaff19cbb46c8.jpg",
     "static/media/open.png": "/AICOSS/static/media/open.86fbe601ee910ebb5b5c.png",
@@ -16,12 +16,12 @@
     "static/media/advanced2.png": "/AICOSS/static/media/advanced2.3a1838f2c6e5615da73f.png",
     "static/media/general2.png": "/AICOSS/static/media/general2.b68deb7c929e02723729.png",
     "index.html": "/AICOSS/index.html",
-    "main.d210c8b2.css.map": "/AICOSS/static/css/main.d210c8b2.css.map",
-    "main.988535ea.js.map": "/AICOSS/static/js/main.988535ea.js.map",
+    "main.9fd69ed8.css.map": "/AICOSS/static/css/main.9fd69ed8.css.map",
+    "main.8925984f.js.map": "/AICOSS/static/js/main.8925984f.js.map",
     "453.8ab44547.chunk.js.map": "/AICOSS/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d210c8b2.css",
-    "static/js/main.988535ea.js"
+    "static/css/main.9fd69ed8.css",
+    "static/js/main.8925984f.js"
   ]
 }
