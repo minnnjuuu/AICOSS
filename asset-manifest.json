@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AICOSS/static/css/main.db5871d8.css",
-    "main.js": "/AICOSS/static/js/main.318a43c6.js",
+    "main.js": "/AICOSS/static/js/main.e275f4af.js",
     "static/js/453.8ab44547.chunk.js": "/AICOSS/static/js/453.8ab44547.chunk.js",
     "static/media/background.jpg": "/AICOSS/static/media/background.9b2d332eaff19cbb46c8.jpg",
     "static/media/open.png": "/AICOSS/static/media/open.86fbe601ee910ebb5b5c.png",
@@ -18,11 +18,11 @@
     "static/media/general2.png": "/AICOSS/static/media/general2.b68deb7c929e02723729.png",
     "index.html": "/AICOSS/index.html",
     "main.db5871d8.css.map": "/AICOSS/static/css/main.db5871d8.css.map",
-    "main.318a43c6.js.map": "/AICOSS/static/js/main.318a43c6.js.map",
+    "main.e275f4af.js.map": "/AICOSS/static/js/main.e275f4af.js.map",
     "453.8ab44547.chunk.js.map": "/AICOSS/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db5871d8.css",
-    "static/js/main.318a43c6.js"
+    "static/js/main.e275f4af.js"
   ]
 }
